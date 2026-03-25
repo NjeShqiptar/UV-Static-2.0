@@ -5,7 +5,7 @@ self.__uv$config = {
     // 👇 WISP SERVER URL 👇
     // If you have a custom Wisp server on Render, put it here.
     // Example: "wss://your-wisp-server.onrender.com/"
-    wisp: "wss://proxy-backend-jf48.onrender.com/", 
+    wisp: "wss://proxy-backend-jf48.onrender.com/wisp/", 
     
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
